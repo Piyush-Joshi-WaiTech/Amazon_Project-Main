@@ -44,7 +44,7 @@ products.forEach((product) => {
       </select>
     </div>
 
-    <div class="product-spacer"></div> <!-- ✅ Added back from the 1st code -->
+    <div class="product-spacer"></div> 
 
     <div class="added-to-cart js-added-message-${product.id}">
       <img src="images/icons/checkmark.png"> Added
@@ -63,7 +63,6 @@ function updateCartQuantity() {
     cartQuantity += cartItem.quantity;
   });
 
-  // ✅ Ensure it always displays cart quantity (as in 1st code)
   document.querySelector(".js-cart-quantity").innerHTML = cartQuantity;
 }
 
