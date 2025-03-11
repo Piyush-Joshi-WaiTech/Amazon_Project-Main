@@ -59,7 +59,6 @@ export function updateDeliveryOption(productId, deliveryOptionId) {
   }
 }
 
-// ✅ Added back `loadCart(fun)` function from 1st code
 export function loadCart(fun) {
   const xhr = new XMLHttpRequest();
 
